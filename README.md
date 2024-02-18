@@ -1,4 +1,18 @@
-
+Instrukcja do uruchomienia aplikacji :
+1) Pobrać plik zip projektu
+2) Wypakować zip do tego folderu
+3) Po przez visual studio code otworzyć plik quiz-app-main
+4) Po wejściu kliknąć stworzyć nowy plik o nazwie : .env    i wkleić do plika następną wartość
+NODE_ENV=development
+PORT=5100
+MONGO_URL=mongodb+srv://weniasss:22112001@cluster0.jr2o6dx.mongodb.net/JOBIFY?retryWrites=true&w=majority
+JWT_SECRET=secret
+JWT_EXPIRES_IN=1d
+5) otworzyć terminal i wpisać komende : npm install
+6) wpisać komende npm run dev , zostanie uruchamiony serwer
+7) otworzyć drugi terminal i wpisać komende cd .\client\
+8) wpisać komende : npm install
+9) wpisać komende : npm run dev
 #### Create React APP
 
 [VITE](https://vitejs.dev/guide/)

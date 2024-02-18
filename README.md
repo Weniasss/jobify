@@ -19,6 +19,7 @@ JWT_EXPIRES_IN=1d
 7) otworzyć drugi terminal i wpisać komende cd .\client\
 8) wpisać komende : npm install
 9) wpisać komende : npm run dev
+10) uruchomi się klient i trzeba kliknąć na pojawiący link po przez ctrl + click
 #### Create React APP
 
 [VITE](https://vitejs.dev/guide/)
